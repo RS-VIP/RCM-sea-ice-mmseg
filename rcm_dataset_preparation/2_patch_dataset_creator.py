@@ -54,12 +54,12 @@ import multiprocessing
 import joblib
 import numpy as np
 from PIL import Image
-from rcm_dataset_preparation.irgs import IRGS
+from irgs import IRGS
 from skimage import measure
 
-from rcm_dataset_preparation.parallel_stuff import Parallel
-from rcm_dataset_preparation.rcm_functions import load_rcm_product, scale_hh_hv
-from rcm_dataset_preparation.landmask_functions import (
+from parallel_stuff import Parallel
+from rcm_functions import load_rcm_product, scale_hh_hv
+from landmask_functions import (
     build_land_masks_earth_geometry,
     build_land_mask_sensor_geometry,
 )
