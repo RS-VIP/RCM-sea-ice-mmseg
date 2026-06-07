@@ -1,0 +1,4 @@
+[submodule "sea-ice-mmseg"]
+	path = sea-ice-mmseg
+	url = https://github.com/RS-VIP/sea-ice-mmseg.git
+	branch = javier/RCM-sea-ice-mmseg
