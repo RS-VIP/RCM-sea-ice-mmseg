@@ -1,0 +1,15 @@
+.idea/
+
+build/
+cmake-build-debug/
+cmake-build-release/
+dist/
+test/
+
+*.egg-info
+*.so
+*.so.*
+
+
+# python stuff
+*__pycache__*

@@ -1,0 +1,7 @@
+# apparently you're supposed to include this file for python packaging these days
+# but I haven't figured out how you're supposed to configure it yet so here's a 
+# minimal version that will have to be filled in later.
+
+[build-system]
+requires = ["setuptools", "wheel", "cmake", "ninja"]
+build-backend = "setuptools.build_meta"
